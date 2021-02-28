@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<suite name="Zebra Test Suite">
+    <test name=" first test">
+        <parameter name="search" value="Zebra plant"></parameter>
+        <classes>
+            <class name="selenium.testng.EtsyZebraPlant"></class>
+        </classes>
+    </test>
+</suite>

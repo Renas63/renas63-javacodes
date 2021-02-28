@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Register testing">
+    <test name=" New Patient">
+        <parameter name="MRSusername" value="admin"></parameter>
+        <parameter name="MRSpassword" value="Admin123"></parameter>
+        <classes>
+            <class name="selenium.testng.DataProviderTask"></class>
+        </classes>
+    </test>
+</suite>

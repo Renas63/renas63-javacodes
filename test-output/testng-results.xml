@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Etsy Test Suite" duration-ms="7176" started-at="2021-02-20T13:30:25 CST" finished-at="2021-02-20T13:30:33 CST">
+    <groups>
+    </groups>
+    <test name=" first test" duration-ms="7176" started-at="2021-02-20T13:30:25 CST" finished-at="2021-02-20T13:30:33 CST">
+      <class name="selenium.testng.EtsyPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium.testng.EtsyPage@1bce4f0a]" name="setUp" is-config="true" duration-ms="2002" started-at="2021-02-20T13:30:26 CST" finished-at="2021-02-20T13:30:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="parametersTest(java.lang.String)[pri:0, instance:selenium.testng.EtsyPage@1bce4f0a]" name="parametersTest" duration-ms="5134" started-at="2021-02-20T13:30:28 CST" finished-at="2021-02-20T13:30:33 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java Programming Mug]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametersTest -->
+      </class> <!-- selenium.testng.EtsyPage -->
+    </test> <!--  first test -->
+  </suite> <!-- Etsy Test Suite -->
+</testng-results>

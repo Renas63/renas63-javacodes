@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Etsy Test Suite]">
+  <test thread-count="5" name=" first test(failed)">
+    <parameter name="search" value="java Programming Mug"/>
+    <classes>
+      <class name="selenium.testng.EtsyPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="parametersTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium.testng.EtsyPage -->
+    </classes>
+  </test> <!--  first test(failed) -->
+</suite> <!-- Failed suite [Etsy Test Suite] -->
